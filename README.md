@@ -4,7 +4,7 @@
 
 ## 🎯 Business Problem
 
-Customer churn costs telecom companies significant revenue every year. This project identifies at-risk customers before they leave, so the business can intervene with personalised retention offers — before the customer cancels their subscription.
+Customer churn costs telecom companies significant revenue every year. This project identifies at-risk customers before they leave, so the business can intervene with personalised retention offers — before they cancel their subscription.
 
 ## 📊 Dataset
 
@@ -81,27 +81,20 @@ git clone https://github.com/Unplugged14/telco-churn-prediction.git
 3. Run all cells from top to bottom
 
 ## 📁 Repository Structure
+
+```
 telco-churn-prediction/
-
-├── Telco_Churn_Prediction.ipynb   # Main analysis notebook
-
-├── tenure_churn.png                # EDA visualisation
-
-├── monthly_charges_churn.png       # EDA visualisation
-
-├── correlation_heatmap.png         # EDA visualisation
-
-├── churn_by_contract.png           # EDA visualisation
-
-├── churn_by_service_payment.png    # EDA visualisation
-
-├── feature_importance.png          # Model insight
-
-├── final_evaluation.png            # Model evaluation
-
-└── README.md
-
-└── .gitignore
+├── .gitignore
+├── README.md
+├── Telco_Churn_Prediction_Final.ipynb   # Main analysis notebook
+├── churn_by_contract.png                 # EDA visualisation
+├── churn_by_service_payment.png          # EDA visualisation
+├── correlation_heatmap.png               # EDA visualisation
+├── feature_importance.png                # Model insight
+├── final_evaluation.png                  # Model evaluation
+├── monthly_charges_churn.png              # EDA visualisation
+└── tenure_churn.png                       # EDA visualisation
+```
 
 ## 📝 Limitations and Next Steps
 
